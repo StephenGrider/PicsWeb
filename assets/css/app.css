@@ -1,0 +1,65 @@
+/* This file is for your main application css. */
+
+.dropzone {
+  min-height: 100px;
+  width: 100%;
+  border: 2px solid #bbdefb;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.dropzone .dz-message {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.dropzone.dz-drag-hover {
+  border: 2px dashed #0d47a1;
+}
+
+.dz-preview {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 2px solid #bbdefb;
+}
+
+.dz-details {
+  width: 60%;
+}
+
+.dz-success-mark, .dz-error-mark {
+  display: none;
+}
+
+.dz-success {
+  background-color: #b2dfdb;
+}
+
+.dz-error {
+  background-color: #ffcdd2;
+}
+
+.data-dz-uploadprogress {
+  background-color: #b3e5fc;
+}
+
+.dz-image img {
+  height: 80px;
+}
+
+.dz-error-message {
+  color: red;
+  width: 20%;
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main img {
+  width: 200px;
+}

@@ -1,0 +1,5 @@
+<div id="image-root"></div>
+
+<script>
+  $(() => window.renderImageApp())
+</script>
